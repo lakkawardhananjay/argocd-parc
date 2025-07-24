@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: hashicorp/http-echo
+        image: dhananjaylakkawar/heroku-alike:latest
         args: ["-text=Hello from DEV!"]
         ports:
         - containerPort: 5678
