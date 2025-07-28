@@ -17,4 +17,4 @@ spec:
         image: dhananjaylakkawar/heroku-alike:78d5500
         args: ["-text=Hello from DEV!"]
         ports:
-        - containerPort: 5678
+        - containerPort: 8000
